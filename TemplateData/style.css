@@ -14,21 +14,20 @@ body {
     margin: 0;
 }
 #unity-container {
-    position: absolute;
-    width: 390px;
-    height: 780px;
+    width: 100%;
+    height: 100%;
 }
 #unity-canvas {
-    width: 390px;
-    height: 780px;
+    width: 100%;
+    height: 100%;
     background: #231F20;
 }
 #loading-cover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 390px;
-    height: 780px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
