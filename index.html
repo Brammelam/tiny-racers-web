@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Race</title>
+    <title>TinyRacer</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body class="dark">
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
+      <canvas id="unity-canvas" width=800 height=1200 style="width: 100%; height: 100%">></canvas>
     </div>
     <div id="loading-cover" style="display:none;">
       <div id="unity-loading-bar">
@@ -27,13 +27,13 @@
       const buildUrl = "Build";
       const loaderUrl = buildUrl + "/WebBuild2.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebBuild2.data.unityweb",
-        frameworkUrl: buildUrl + "/WebBuild2.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebBuild2.wasm.unityweb",
+        dataUrl: buildUrl + "/WebBuild2.data",
+        frameworkUrl: buildUrl + "/WebBuild2.framework.js",
+        codeUrl: buildUrl + "/WebBuild2.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Race",
-        productVersion: "0.1",
+        companyName: "Brammelam Inc",
+        productName: "TinyRacer",
+        productVersion: "1.0",
       };
 
       const container = document.querySelector("#unity-container");
