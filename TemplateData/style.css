@@ -15,8 +15,8 @@ body {
 }
 #unity-container {
     position: absolute;
-    width: 100vh;
-    height: 100vw;
+    width: 100%;
+    height: calc(100vh - 60px);
 }
 #unity-canvas {
     width: 354px;
