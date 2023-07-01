@@ -1,9 +1,9 @@
 const cacheName = "Brammelam Inc-TinyRacer-1.0";
 const contentToCache = [
     "Build/WebBuild2.loader.js",
-    "Build/WebBuild2.framework.js.gz",
-    "Build/WebBuild2.data.gz",
-    "Build/WebBuild2.wasm.gz",
+    "Build/WebBuild2.framework.js",
+    "Build/WebBuild2.data",
+    "Build/WebBuild2.wasm",
     "TemplateData/style.css"
 
 ];
